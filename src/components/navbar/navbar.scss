@@ -1,0 +1,67 @@
+@import url(../../styles/css.variable.scss);
+
+.navbar-container {
+  ul {
+    width: 100%;
+
+    h4 {
+      text-transform: uppercase;
+      color: #29324195;
+      font-family: var(--fontFamilyRoboto);
+      font-size: 0.9em;
+      font-weight: 500;
+      padding: 3px 5px;
+      border-left: 3px solid var(--blue);
+    }
+
+    li {
+      width: 100%;
+      display: flex;
+      align-items: center;
+      margin: 3px 0;
+      padding: 5px 0;
+      border-radius: 5px;
+      position: relative;
+
+      .icon {
+        width: 25px;
+        height: 30px;
+        margin: 0 2px;
+        color: var(--blue);
+      }
+
+      a {
+        position: absolute;
+        left: 38px;
+        font-size: 0.95em;
+        text-decoration: none;
+        color: #293241d8;
+        font-weight: 500;
+        font-family: var(--fontFamilyRoboto);
+      }
+
+      .show-submenu {
+        position: absolute;
+        right: 5px;
+      }
+
+      //Submenu
+      ul {
+        width: 100%;
+
+        li {
+          display: flex;
+          background-color: red;
+
+          a {
+            position: static;
+          }
+        }
+      }
+    }
+
+    li.menu-active {
+      background-color: rgb(242, 242, 242);
+    }
+  }
+}

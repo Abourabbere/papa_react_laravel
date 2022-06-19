@@ -1,0 +1,29 @@
+/* importation des font family */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;600&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;600&family=Lato:wght@100;300;400;700;900&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+
+:root{
+    /* les font family */
+    --fontFamilyRoboto: 'Roboto', sans-serif;
+    --fontFamilyCaveat: 'Caveat', cursive;
+    --fontFamilyLato: 'Lato', sans-serif;
+    
+    /* les couleurs */
+    --white: #FDFFFC;
+    --blue: #00171F;
+    --black: #0A0908;
+    --red: #D90429;
+    
+    /* les boxShadow */
+    --boxShadowClaire: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    --boxShadowFonce: rgba(0, 0, 0, 0.2) 0px 20px 30px;
+    
+    /* les style des buttons */
+    --borderRadiuslaiger: 10px;
+    --borderRadius: 10px;
+    
+    /* les style des buttons */
+    --bgGradien-blue: linear-gradient(90deg, rgba(0,23,31,0.6166841736694677) 0%, rgba(0,23,31,0.8295693277310925) 35%, rgba(0,23,31,1) 100%);
+}
